@@ -12,11 +12,6 @@ import utils.Elements;
 public class MobileGetElementLocation {
 	public Point run(HashMap<String, String> params) {
 		try {
-			MobileElement element = Elements.find(params, Driver.driver);
-			
-			Point location=element.getLocation();
-			
-			return location;
 		
 		} catch (Exception e) {
 
